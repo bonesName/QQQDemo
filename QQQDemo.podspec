@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "RRRDemo"
+  spec.name         = "QQQDemo"
   spec.version      = "1.1.0"#版本号
   spec.summary      = "GMUnite for gama games developer."
   spec.description  = <<-DESC
