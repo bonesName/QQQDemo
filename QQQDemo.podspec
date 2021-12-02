@@ -19,8 +19,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/bonesName/QQQDemo.git", :tag => "#{spec.version}" }
-  spec.resource = "Framework/GMGSupport.bundle"
-  spec.ios.vendored_frameworks = 'Framework/GMUniteCH.framework'
+  spec.resource = "Framework/LiveSDKIcon.bundle"
+  spec.ios.vendored_frameworks = 'Framework/LiveSDK.framework'
   spec.frameworks = "UIKit", "Foundation","AudioToolbox","AppTrackingTransparency","CFNetwork","StoreKit","WebKit"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
