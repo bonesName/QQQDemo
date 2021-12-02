@@ -21,17 +21,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/bonesName/QQQDemo.git", :tag => "#{spec.version}" }
   spec.resource = "Framework/LiveSDKIcon.bundle"
   spec.ios.vendored_frameworks = 'Framework/LiveSDK.framework'
-  spec.frameworks = "UIKit", "Foundation","AudioToolbox","AppTrackingTransparency","CFNetwork","StoreKit","WebKit"
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
-  spec.requires_arc = true
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64'}
-  spec.dependency "Reachability"
-  spec.dependency "Masonry"
-  spec.dependency "AFNetworking"
-  spec.dependency "MBProgressHUD"
-  spec.dependency "UMCommon"
-  spec.dependency "UMDevice"
-  spec.dependency "UMAPM"
-  spec.dependency "Ads-CN"
+
 end
