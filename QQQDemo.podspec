@@ -13,12 +13,12 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
     GMUnitech for gama games developer.游戏发中国大陆地区使用Umeng统计和穿山甲广告!
                    DESC
-  spec.homepage     = "https://github.com/bonesName/RRRDemo.git"
+  spec.homepage     = "https://github.com/bonesName/QQQDemo.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "bonesName" => "bones@88tech.net" }
   spec.platform     = :ios
   spec.ios.deployment_target = "9.0"
-  spec.source       = { :git => "https://github.com/bonesName/RRRDemo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/bonesName/QQQDemo.git", :tag => "#{spec.version}" }
   spec.resource = "Framework/GMGSupport.bundle"
   spec.ios.vendored_frameworks = 'Framework/GMUniteCH.framework'
   spec.frameworks = "UIKit", "Foundation","AudioToolbox","AppTrackingTransparency","CFNetwork","StoreKit","WebKit"
